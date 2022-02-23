@@ -14,7 +14,7 @@ public class TC_LoginDDT_002 extends BaseClass{
 	@Test(dataProvider="LoginData")
 	public void LoginTest(String uname,String password) throws IOException, InterruptedException {
 		//SoftAssert ass=new SoftAssert();
-		logger.info("url is opened");
+		logger.info("url is opened  ***");
 		LoginPage  loginPage1=new LoginPage(driver);
 		loginPage1.setUserName(uname);
 		logger.info("username entered");
